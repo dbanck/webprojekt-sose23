@@ -112,12 +112,25 @@ ul li > strong {
 
 /* Spezifität */
 
+div {
+  background-color: red;
+}
 
+.my-green-div {
+  background-color: green;
+}
 
+.my-red-div {
+  background-color: crimson;
+}
 
+#my-blue-div {
+  background-color: blue;
+}
 
-
-
+div {
+  background-color: yellow;
+}
 
 
 
@@ -150,4 +163,18 @@ ul li > strong {
 /* Box Modell */
 * {
   /* border: 1px solid red !important; */
+}
+
+.my-box {
+  width: 500px;
+  height: 200px;
+  padding: 25px;
+  border: 5px solid brown;
+  margin: 50px;
+}
+
+.my-inline-box {
+  margin-top: 100px;
+  display: inline;
+  font-size: 500%;
 }
