@@ -1,6 +1,7 @@
 body {
   font-size: 18px;
   font-family: sans-serif;  
+  padding-bottom: 400px;
 }
 
 header {
@@ -19,11 +20,41 @@ main {
   margin: auto;
 }
 
+.divider-headline {
+   background-color: green;
+}
 
+.rot {
+  color: red;
+}
+
+.gruen {
+  color: green;
+}
+
+
+#my-id {
+  font-size: 30px;
+}
+
+
+/* Hallo Welt
+
+asd
+
+asd
+as
+d
+ad
+asd
+
+*/
 
 
 /* Stufenförmig */
-
+ul li > strong {
+  color: red;
+}
 
 
 
