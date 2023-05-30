@@ -1,4 +1,4 @@
-var isLarge = false;
+let isLarge = false;
 
 function changeSize() {
   if (isLarge === false) {
@@ -13,5 +13,6 @@ function changeSize() {
     isLarge = false;
   }
 
+  // der Code hier unten erzeugt das gleiche Ergebnis wie oben, nur sehr viel kürzer
   // document.getElementById("my-cool-btn").classList.toggle("larger");
 }

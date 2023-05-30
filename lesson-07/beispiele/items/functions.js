@@ -6,7 +6,7 @@ function addItem() {
     return; // we return nothing from this function, so it ends here
   }
 
-  var newItem = document.createElement("li"); // create new list item
+  let newItem = document.createElement("li"); // create new list item
 
   // add different item text depending on count
   if (items === 3) {
