@@ -34,7 +34,7 @@ ul {
   padding: 24px 0;
   list-style-type: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: row; /* <--- default value */
 }
 
 nav {
@@ -42,5 +42,23 @@ nav {
   background-size: cover;
   display: flex;
   align-items: center;
-  height: 150px;
+  height: 150px; /* <-- zu flach in kleinen screens */
+}
+
+@media (max-width: 910px) {
+  ul {
+    flex-direction: column;
+  }
+
+  nav {
+    height: auto;
+  }
+
+  /* ... weitere CSS Regeln */
+}
+
+@media (max-width: 599px) {
+  body {
+    background-color: red;
+  }
 }
